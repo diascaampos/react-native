@@ -10,7 +10,7 @@ export default class App extends React.Component{
     return (
       <View style={styles.container}>
         <Simples texto="Flexível!!"/>
-        <ParImpar numero={22}/>
+        <ParImpar numero={21}/>
       </View>
     )
   }
