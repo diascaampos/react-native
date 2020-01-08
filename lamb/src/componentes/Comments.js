@@ -16,7 +16,7 @@ class Comments extends Component{
                 return(
                     <View style={StyleSheet.commentContainer} key={index}>
                         <Text style={styles.nickname}>{item.nickname}</Text>
-                        <Text style={styles.comments}>{item.comments}</Text>
+                        <Text style={styles.comment}>{item.comment}</Text>
                     </View>
                 )
             })
