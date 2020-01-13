@@ -26,7 +26,7 @@ class AddComment extends Component{
                 <View style={styles.container}>
                     <TextInput placeholder='Faça seu comentário...' style={styles.input} autoFocus={true} value={this.state.comment} onChangeText={comment => this.setState({comment})} onSubmitEditing={this.handleAddComment}/>
                     <TWF onPress={() => this.setState({editMode:false})}>
-                        <Icon name='times' size={15} color='#555'/>
+                        <Icon name='plus' size={15} color='#555'/>
                     </TWF>
                 </View>
             )
