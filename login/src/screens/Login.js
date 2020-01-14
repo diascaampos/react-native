@@ -63,11 +63,6 @@ export default function App(){
 			})
 		]).start()
 	}
-	
-	state = {
-		email: '',
-		password: '',
-	}
 
 	return(
 		<ImageBackground source={require('./assets/imgs/background.png')} style={{flex: 1}}>
@@ -79,7 +74,7 @@ export default function App(){
 						width: logo.x,
 						height: logo.y,
 					}}
-					source={require('./assets/imgs/logo-cointrade.png')}/>
+					source={require('./assets/imgs/logoAzul')}/>
 				</View>
 
 				<Animated.View style={[
