@@ -1,6 +1,6 @@
 
 import {AppRegistry} from 'react-native';
-import Login from './src/screens/Login'
+import Wallet from './src/screens/Wallet'
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Login);
+AppRegistry.registerComponent(appName, () => Wallet);
