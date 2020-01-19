@@ -14,7 +14,9 @@ import {
 import { create } from 'react-test-renderer';
 
 export default function App(){
-
+	static navigationOptions={
+        drawerLabel: 'Login'
+    }
 	const [offset] = useState(new Animated.ValueXY({x: 0, y: 95}))
 	const [opacity] = useState(new Animated.Value(0))	
 	const [logo] = useState(new Animated.ValueXY({x: 130, y: 155}))
