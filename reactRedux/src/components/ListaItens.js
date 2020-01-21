@@ -48,10 +48,10 @@ export default class ListaItens extends Component {
                 { 
                     name: "BitcoinCash", 
                     simboloCripto: 'BCH', 
-                    image: 'https://s2.coinmarketcap.com/static/img/coins/32x32/1831.png?_=6f9d24a',
+                    image: './imgs/',
                     saldoCripto: '3,0', 
                     saldoReais: '3.540,00', 
-                    ultimoPreco: '1.180,00‬', 
+                    ultimoPreco: '1.180‬', 
                     variacaoPorcentagem: '3,5'
                 }
               ]

@@ -11,7 +11,7 @@ const geraNumeroAleatorio=()=>{
   numAleatorio = Math.floor(numAleatorio * 10)
   alert(numAleatorio)
 }
-export default class App extends Component{
+export default class NumAleatorio extends Component{
 
 	render(){
 		return(

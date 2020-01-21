@@ -25,7 +25,7 @@ const gerarNovaFrase = () =>{
 	Alert.alert(fraseEscolhida)
 }
 
-export default class App extends Component{
+export default class FraseDoDia extends Component{
 
 	render(){
 		return(
