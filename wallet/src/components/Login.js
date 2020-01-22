@@ -13,10 +13,7 @@ import {
 } from 'react-native';
 import { create } from 'react-test-renderer';
 
-export default function App(){
-	static navigationOptions={
-        drawerLabel: 'Login'
-    }
+export default function Login(){
 	const [offset] = useState(new Animated.ValueXY({x: 0, y: 95}))
 	const [opacity] = useState(new Animated.Value(0))	
 	const [logo] = useState(new Animated.ValueXY({x: 130, y: 155}))
@@ -67,7 +64,7 @@ export default function App(){
 	}
 
 	return(
-		<ImageBackground source={require('./imgs/background.png')} style={{flex: 1}}>
+		<ImageBackground source={require('../../imgs/background.png')} style={{flex: 1}}>
 			<KeyboardAvoidingView style={styles.background}>
 				
 				<View style={styles.containerLogo}>
@@ -76,7 +73,7 @@ export default function App(){
 						width: logo.x,
 						height: logo.y,
 					}}
-					source={require('./imgs/logoAzul')}/>
+					source={require('../../imgs/logoAzul.png')}/>
 				</View>
 
 				<Animated.View style={[
